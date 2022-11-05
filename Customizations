@@ -1,0 +1,682 @@
+::selection {
+  background: #f2b8d0;
+}
+
+::-moz-selection {
+  background: #f2b8d0;
+}
+
+h3.heading {
+  margin-top: .6em !important;
+  margin-left: .5em !important;
+}
+
+ol.index.group {
+  padding-top: .4em;
+  margin-top: 0;
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu {
+  width: auto;
+}
+
+ol.pagination.actions {
+  margin-bottom: .2em !important;
+}
+
+ol.pagination.actions li:first-child:after {
+  content: "♥";
+  margin-left: 1em;
+}
+
+ol.pagination.actions li:last-child:before {
+  content: "♥";
+  margin-right: 1em;
+}
+
+div#kudos_message.notice {
+  display: block !important;
+}
+
+.series span.divider {
+  color: #bf6b8e;
+}
+
+ol.pagination.actions,
+ol.pagination .current,
+ol.pagination .current:focus,
+ol.pagination.actions a,
+ol.pagination.actions a:link {
+  background-color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+  color: #ad587c;
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol.pagination.actions a:hover {
+  color: #853e5c;
+}
+
+ol.pagination .current {
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+.blurb .datetime {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.header.module {
+  position: relative;
+}
+
+#main.system.docs.index.region {
+  min-height: 75em;
+}
+
+div.favorite.module.odd {
+  position: absolute;
+  left: 6em;
+  top: 3em;
+  width: 37%;
+}
+
+div.random.readings.module.odd {
+  position: absolute;
+  right: 6em;
+  top: 3em;
+  width: 42%;
+}
+
+div.random.readings.module.odd li {
+  margin-top: 0;
+}
+
+#header ul.menu li {
+  display: inline-block;
+}
+
+#header ul.menu li:hover,
+#header ul.menu li:focus {
+  background-color: #f2b8d0 !important;
+  color: #ad587c !important;
+}
+
+blockquote.userstuff.summary p {
+  margin-left: .8em;
+  margin-right: .8em;
+}
+
+#header h1.heading a::before {
+  line-height: .9em;
+  content: "🙤 · Lolita · 🙦";
+  font-size: 2.7em;
+  font-family: "Palatino Linotype", Georgia;
+  font-weight: normal;
+  font-style: italic;
+  color: #faf2f5;
+  padding-top: 4em;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+h1.heading a[href="/"] {
+  display: inline-block;
+  height: 100%;
+  min-height: 3em;
+}
+
+div#header.region {
+  background-color: #f2b8d0;
+  max-height: 8.9em !important;
+}
+
+#greeting {
+  padding-right: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0em;
+}
+
+#header h1.heading {
+  padding-top: 2em;
+  margin-top: .7em;
+  margin-bottom: 0;
+  text-align: center;
+  margin-right: 12em;
+  margin-left: 0;
+  padding-left: .1em;
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu {
+  width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  position: relative;
+  text-align: center;
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu {
+  width: auto;
+}
+
+#header .heading {
+  margin-left: auto !important;
+  margin-right: auto;
+  display: block;
+  float: none;
+  font-size: 0.8em;
+  padding: 0;
+  text-align: center !important;
+}
+
+#header .primary .menu a {
+  padding: 0.429em 0.75em;
+}
+
+#header ul.menu {
+  text-align: center;
+}
+
+#login,
+#greeting {
+  padding-bottom: .3em;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  margin-top: 0px !important;
+  text-align: center !important;
+}
+
+#header .user .open a:focus {
+  color: #4675C0;
+}
+
+#header li {
+  display: inline-block;
+}
+
+#header .user,
+.comment .posted,
+#header li {
+  float: initial;
+}
+
+#header h1.heading {
+  margin: auto;
+  min-width: 1px;
+}
+
+div#main.works-index.filtered.region h2.heading {
+  min-width: 1000px;
+  margin: auto;
+}
+
+dl.subscription.index.group {
+  background-color: #f7edf3;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+dl.subscription.index.group dd,
+dl.subscription.index.group dt {
+  margin: 1em;
+}
+
+dl.subscription.index.group dt {
+  border-bottom: 1.5px #bf6b8e solid;
+}
+
+dl.subscription.index.group a[href*="series"],
+dl.subscription.index.group a[href*="users"],
+dl.subscription.index.group a[href*="works"] {
+  font-weight: bold;
+}
+
+.blurb h4.heading {
+  visibility: hidden;
+}
+
+.blurb h4.heading a {
+  visibility: visible;
+  font-size: 1.2em !important;
+}
+
+.blurb h4.heading a[rel="author"] {
+  display: inline-block;
+  margin-left: 0em;
+  margin-top: -.1em;
+}
+
+.blurb h4.heading a[href*="works"] {
+  position: relative;
+}
+
+.blurb h4.heading a[href*="works"]::after,
+.blurb h4.heading a[href*="series"]::after {
+  position: relative;
+  content: "♥";
+  display: inline-block;
+  font-size: 1em;
+  padding-left: 2em;
+  margin-left: 0;
+  padding-right: 0em;
+  padding-top: .2em;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: f7d0e4 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bf6b8e;
+  border-radius: 3px;
+}
+
+.blurb ::-webkit-scrollbar {
+  width: 3px;
+}
+
+.blurb ::-webkit-scrollbar-track-piece {
+  background: none;
+  border-radius: 3px;
+}
+
+.blurb ::-webkit-scrollbar-thumb {
+  background-color: #f7d0e4;
+}
+
+.blurb h4.heading {
+  color: #bf6b8e;
+}
+
+.blurb #text {
+  display: none;
+}
+
+.blurb h4.heading {
+  padding-top: .1em;
+}
+
+.blurb h4.heading a[href*="series"]:hover,
+.blurb h4.heading a[rel="author"]:hover,
+.blurb h4.heading a[href*="/works/"]:hover,
+h5.fandoms.heading a:hover {
+  background-color: transparent !important;
+  color: #ad587c !important;
+}
+
+h5.fandoms.heading {
+  margin-top: 0 !important;
+}
+
+.blurb .fandoms.heading {
+  margin-top: 1em;
+}
+
+.blurb .fandoms.heading a {
+  padding-left: 1px;
+}
+
+.blurb,
+.fandoms.heading a:hover {
+  background: transparent;
+  color: #ad587c;
+}
+
+li.freeforms::after,
+li.character::after,
+li.relationships::after,
+li.warnings::after {
+  display: none;
+}
+
+div#header.region,
+#greeting {
+  display: inline-block;
+  width: 100%;
+  content: "";
+  background: url(https://i.ibb.co/Kj83b4L/Colorcard-hex-f2b8d0-www-colorbook-io.jpg);
+  background-size: auto 14em;
+  background-repeat: repeat-x;
+  max-height: 12em;
+}
+
+#inner {
+  padding-top: 4.3em;
+}
+
+#greeting .navigation a[href="/works/new"] {
+  text-size: 1em;
+  display: block;
+  font-family: "Palatino Linotype", Georgia;
+  color: #faf2f5 !important;
+  font-style: bold;
+}
+
+.navigation li.dropdown::before,
+.navigation a[rel*="nofollow"] {
+  text-size: 1em;
+  display: block;
+  margin-top: 1em;
+  font-family: "Palatino Linotype", Georgia;
+  color: #faf2f5 !important;
+  font-style: bold;
+}
+
+a {
+  outline: none !important;
+}
+
+abbr.day,
+abbr.month,
+abbr.timezone {
+  font-weight: normal !important;
+}
+
+.even.comment.group {
+  background: transparent;
+}
+
+div#main.skins-show.region h2 {
+  margin-left: 0em;
+  text-align: left;
+}
+
+.blurb h4 {
+  display: inline-block;
+  vertical-align: sub;
+  padding-left: 2.8;
+}
+
+span.current {
+  background-color: #f2b8d0 !important;
+  border: 1px solid #d9759e !important;
+}
+
+dt.warning.tags a {
+  color: #ad587c;
+}
+
+dt.warning.tags a:hover {
+  background-color: transparent;
+}
+
+dd.warning.tags {
+  font-weight: normal;
+}
+
+dl.work.meta.group dt {
+  font-weight: bold;
+}
+
+a.hidden.showme:focus,
+a.hidden.showme:after {
+  color: #f7edf3 !important;
+}
+
+.meta.group,
+.skin.verbose.post dl,
+.skin.verbose.post ul.index.group,
+.skin.verbose.post fieldset.listbox.group,
+textarea#skin_css.large,
+form#bookmark-filters fieldset,
+#main.profile-show dl.meta {
+  background-color: #f7edf3 !important;
+}
+
+.skin.verbose.post legend {
+  background-color: #f2b8d0 !important;
+}
+
+textarea#skin_css.large {
+  border: 2px solid #ad587c !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-style: hidden;
+}
+
+div#collection-bookmarks.bookmark.listbox.group,
+div#user-works.work.listbox.group,
+div#user-fandoms.fandom.listbox.group,
+div#user-bookmarks.bookmark.listbox.group,
+.series.listbox.group {
+  background-color: #f2b8d0 !important;
+}
+
+.blurb ul.tags {
+  max-height: 9.2em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.375em;
+}
+
+ul.menu.dropdown-menu li {
+  border-bottom: none !important;
+}
+
+li.dropdown {
+  color: #faf2f5;
+}
+
+div#main.works-index.filtered.region h2.heading {
+  text-align: center;
+  color: #cf82a1;
+}
+
+h2.heading a {
+  color: #cf82a1 !important;
+}
+
+h2.heading a:hover {
+  color: #f7edf3 !important;
+}
+
+div#dashboard.region,
+div#dashboard.region.own {
+  font-weight: bold !important;
+}
+
+#header .primary {
+  visibility: hidden;
+}
+
+#header .primary::before {
+  visibility: visible;
+  display: inline-block;
+  width: 100%;
+  height: 3em;
+  content: "";
+  background: url(https://i.ibb.co/p2LZDzx/15-150754-white-lace-border-png-jpg-transparent-stock-lace.png);
+  background-size: auto 3em;
+  background-repeat: yes-repeat;
+  vertical-align: sub;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: -.4em;
+}
+
+form#work-filters fieldset,
+.blurb {
+  background-color: #f7edf3 !important;
+}
+
+#main span.title {
+  visibility: hidden;
+}
+
+#greeting .user > li:first-child > a {
+  display: none;
+}
+
+.navigation a[href="/works/new"] {
+  display: inline-block !important;
+  padding: 0.25em 0.75em;
+  line-height: 1.286;
+  color: c4297b !important;
+}
+
+#greeting .user > li:first-child::before {
+  content: "Hi! Vy";
+  padding: 0.25em 0.75em;
+  display: inline-block !important;
+  line-height: 1.286;
+  color: c4297b !important;
+}
+
+#header .logo {
+  display: none;
+}
+
+#header .heading sup {
+  display: none;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header .heading sup {
+  visibility: hidden;
+}
+
+.blurb .header ul.required-tags,
+.blurb .header .icon {
+  display: none;
+}
+
+.blurb.group.work .header::before {
+  position: absolute;
+  display: inline-block;
+  width: 3.4em;
+  height: 3.4em;
+  content: "";
+  background: url(https://24.media.tumblr.com/101e39aab6702de45f38aa98734a557a/tumblr_mnhdc4BXQ11snc5kxo1_400.gif);
+  background-size: 3.4em 3.4em;
+  top: 0;
+}
+
+.collection.picture.blurb .header::before {
+  display: block;
+  position: absolute;
+  width: 3.4em;
+  height: 3.4em;
+  content: "";
+  background: url(https://pa1.narvii.com/6621/53a573f2c5988d49811c493427746e862a112724_hq.gif);
+  background-size: 3.4em 3.4em;
+  vertical-align: top;
+}
+
+.series.blurb .header::before {
+  display: inline-block;
+  position: absolute;
+  width: 3.4em;
+  height: 3.4em;
+  content: "";
+  background: url(https://i.pinimg.com/originals/38/83/8d/38838d2369fe10f9e3f03e92bde4883c.gif);
+  background-size: 3.4em 3.4em;
+  vertical-align: top;
+}
+
+.skins.picture.blurb.group .header::before {
+  display: inline-block;
+  position: absolute;
+  width: 3.4em;
+  height: 3.4em;
+  content: "";
+  background: url(https://emoji.discadia.com/emojis/58129240-d84e-4733-8770-38c1075d9c4c.gif);
+  background-size: 3.4em 3.4em;
+  vertical-align: top;
+}
+
+.bookmark.blurb .header::before {
+  display: inline-block;
+  position: absolute;
+  width: 3.1em;
+  height: 3.7em;
+  content: "";
+  background: url(https://media.tenor.com/GUhu3AIYYEEAAAAi/kawaii-pixel.gif);
+  background-size: 3.1em 3.7em;
+  margin-top: -.5em;
+}
+
+div.favorite.module.odd {
+  background-color: #f2b8d0 !important;
+  border-radius: 5px;
+  border: 1px #bf6b8b solid;
+}
+
+div.favorite.module.odd li {
+  border-bottom: 1px #bf6b8b solid;
+  padding-top: .6em;
+  padding-bottom: .6em;
+  margin: auto;
+}
+
+div.favorite.module.odd li:nth-last-of-type(1) {
+  border-bottom: none;
+}
+
+.splash .favorite a,
+.splash .favorite li:nth-of-type(odd) a {
+  color: #ad587c !important;
+  background: #f2b8d0 !important;
+}
+
+.splash .favorite a:hover,
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite a:focus,
+.splash .favorite li:nth-of-type(odd) a:focus,
+.splash .favorite li:focus,
+.splash .favorite li:hover {
+  background: #f2b8d0 !important;
+  color: #f7d0e4 !important;
+}
+
+.splash .favorite a,
+.splash .favorite li:nth-of-type(even) a {
+  color: #ad587c !important;
+  background: #f2b8d0 !important;
+}
+
+.splash .favorite a:hover,
+.splash .favorite li:nth-of-type(even) a:hover,
+.splash .favorite a:focus,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #f2b8d0 !important;
+  color: #f7d0e4 !important;
+}
+
+#greeting a:hover {
+  background-color: transparent !important;
+  color: #f7edf3 !important;
+}

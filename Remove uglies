@@ -1,0 +1,16 @@
+#main.system.docs.index.region h3.heading,
+div.favorite.module.odd h3.heading,
+p.note,
+p.notes,
+div.latest.news.module,
+div.latest.tweets.module,
+#footer,
+div.icon,
+.blurb h4.heading a[href*="/gifts"],
+p.icon,
+p.notice,
+a.help.symbol.question.modal.modal-attached,
+span#site_search_tooltip.tip,
+p.status {
+  display: none !important;
+}

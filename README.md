@@ -6,4 +6,4 @@ so if some of the formats wonky w the latter it is what it is
 
 uhh idk how much css u kno but gl trying to adjust it my codes a mess
 
-theres a separate mobile file that u have to make a parent of main
+make the main skin first and add the rest as parents

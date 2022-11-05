@@ -5,3 +5,5 @@ i formatted this w a lot of elements removed (post new, notifications, drafts et
 so if some of the formats wonky w the latter it is what it is 
 
 uhh idk how much css u kno but gl trying to adjust it my codes a mess
+
+theres a separate mobile file that u have to make a parent of main

@@ -1,8 +1,77 @@
+div.recent.module.group div.header.module::before {
+  display: none;
+}
+
+div.new.dynamic {
+  background-color: #f7edf3;
+}
+
+.blurb ul.tags a[href*="*a*"] {
+  display: none;
+}
+
+div#feedback.feedback div#bookmark-form.post.bookmark {
+  background-color: #f7d0e4;
+}
+
+#bookmark-form {
+  background-color: #f7edf3;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+div#bookmark-form.post.bookmark {
+  margin-top: 4em;
+}
+
+div#user-bookmarks.bookmark.listbox.group div #bookmark-form {
+  background-color: #f7edf3;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+div#feedback.feedback div#bookmark-form.post.bookmark {
+  background-color: none;
+  border: none;
+}
+
+div #bookmark-form textarea {
+  font-family: Courier, "Courier New";
+}
+
+li.warnings a:last-of-type {
+  margin-right: .65em;
+}
+
+input[type="hidden"],
+input#bookmark_private,
+input#bookmark_private:hover,
+input#bookmark_rec,
+input#bookmark_rec:hover {
+  background-color: #eb8db3;
+  border: 0;
+}
+
+input#bookmark_private:checked,
+input#bookmark_rec:checked {
+  background-color: #f7edf3;
+}
+
+input#bookmark_collection_names_autocomplete.text,
+input#bookmark_tag_string_autocomplete.text,
+div #bookmark-form textarea {
+  background-color: #f7d0e4;
+}
+
+div#feedback.feedback input#bookmark_collection_names_autocomplete.text,
+div#feedback.feedback input#bookmark_tag_string_autocomplete.text,
+div#feedback.feedback div #bookmark-form textarea {
+  background-color: #f2b8d0;
+}
 
 div#main.works-index.filtered.region h4.heading a[href*="works"]:visited {
   color: #bf869e !important;
 }
-
 
 div#user-bookmarks.bookmark.listbox.group {
   margin-top: 0;
@@ -454,6 +523,12 @@ a.hidden.showme:after {
   color: #f7edf3 !important;
 }
 
+fieldset.work.meta,
+fieldset.preface,
+fieldset#associations,
+fieldset.privacy,
+fieldset.work.text,
+fieldset.create,
 .meta.group,
 .skin.verbose.post dl,
 .skin.verbose.post ul.index.group,
@@ -464,7 +539,8 @@ form#bookmark-filters fieldset,
   background-color: #f7edf3 !important;
 }
 
-.skin.verbose.post legend {
+.skin.verbose.post legend,
+div#main.works-new.region legend {
   background-color: #f2b8d0 !important;
 }
 
@@ -699,4 +775,5 @@ div.favorite.module.odd li:nth-last-of-type(1) {
 h3.byline.heading {
   margin-left: 0 !important;
 }
+
 

@@ -1,4 +1,48 @@
 
+li.download ul.expandable.secondary {
+  width: 100% !important;
+  margin-right: -.3em;
+  padding-right: 0;
+  margin-top: -.2em;
+}
+
+div#collection-page div.primary.header.module {
+  height: 15%;
+}
+
+div#collection-page div#collection-works.work.listbox.group {
+  display: relative;
+}
+
+div#collection-bookmarks li,
+div#collection-works.work.listbox.group li {
+  margin-bottom: 3em;
+}
+
+form#work-filters.filters fieldset {
+  margin-right: -1.7em;
+}
+
+.blurb dl.stats {
+  text-align: left;
+}
+
+div#main.collections-show.region .blurb {
+  margin-top: -2em;
+}
+
+div #bookmark-form h4.heading {
+  display: none;
+}
+
+div#feedback.feedback div#bookmark-form.post.bookmark textarea {
+  max-width: 29em;
+}
+
+div#bookmark-form.post.bookmark textarea {
+  max-width: 24.3em;
+}
+
 div#main.collections-show.dashboard.region div.primary.header.module {
   margin-bottom: 3.5em;
 }
@@ -125,6 +169,7 @@ ol.pagination.actions li {
   width: 280px;
   margin-right: 0;
   padding-top: .25em;
+  padding-right: 1em;
 }
 
 h5.fandoms.heading {
@@ -265,8 +310,7 @@ h4.heading a[rel="author"] {
 }
 
 h4.heading a[href*="/works/"],
-h4.heading a[href*="/series/"]
-{
+h4.heading a[href*="/series/"] {
   font-size: 1.1em !important;
 }
 
@@ -593,4 +637,5 @@ div#main.works-index.filtered.region h2.heading {
 div#main.works-index.filtered.region h2.heading a {
   color: #cf82a1 !important;
 }
+
 

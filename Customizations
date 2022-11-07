@@ -365,7 +365,7 @@ dl.subscription.index.group a[href*="works"] {
   padding-left: 2em;
   margin-left: 0;
   padding-right: 0em;
-  padding-top: .2em;
+
 }
 
 ::-webkit-scrollbar {

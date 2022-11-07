@@ -1,3 +1,20 @@
+
+div.skins.home blockquote.userstuff,
+div.skins.home dl.stats {
+  text-align: center;
+}
+
+div.skins.home blockquote.userstuff {
+  padding-top: 1.5em;
+  margin-right: 0;
+}
+
+div.css.module {
+  padding-top: 12em;
+}
+
+
+
 .skins.picture.blurb.group .datetime,
 .collection.picture.blurb .datetime {
   position: absolute;

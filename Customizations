@@ -1,3 +1,11 @@
+div#user-bookmarks.bookmark.listbox.group {
+  margin-top: 0;
+}
+
+span.status {
+  display: none;
+}
+
 ::selection {
   background: #f2b8d0;
 }
@@ -229,7 +237,6 @@ div#header.region {
 }
 
 div#main.works-index.filtered.region h2.heading {
-  min-width: 1000px;
   margin: auto;
 }
 
@@ -256,6 +263,7 @@ dl.subscription.index.group a[href*="works"] {
 
 .blurb h4.heading {
   visibility: hidden;
+  font-size: .1;
 }
 
 .blurb h4.heading a {
@@ -465,6 +473,7 @@ textarea:focus {
   border-style: hidden;
 }
 
+.work.listbox.group,
 div#collection-bookmarks.bookmark.listbox.group,
 div#user-works.work.listbox.group,
 div#user-fandoms.fandom.listbox.group,

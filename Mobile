@@ -1,4 +1,14 @@
+div#main.collections-show.dashboard.region div.primary.header.module {
+  margin-bottom: 3.5em;
+}
 
+div#main.collections-show.dashboard.region h2.heading {
+  padding-top: 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+div#main.skins-show.region h2.heading,
 div.skins.home blockquote.userstuff,
 div.skins.home dl.stats {
   text-align: center;

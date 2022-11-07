@@ -1,4 +1,6 @@
 
+div#collection-works.work.listbox.group span.status,
+
 #greeting .navigation a[href="/works/new"],
 li.share,
 .blurb h4.heading a[href*="/gifts"],

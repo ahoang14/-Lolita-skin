@@ -680,3 +680,8 @@ div.favorite.module.odd li:nth-last-of-type(1) {
   background-color: transparent !important;
   color: #f7edf3 !important;
 }
+
+h3.byline.heading {
+  margin-left: 0 !important;
+}
+

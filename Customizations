@@ -1,3 +1,9 @@
+
+div#main.works-index.filtered.region h4.heading a[href*="works"]:visited {
+  color: #bf869e !important;
+}
+
+
 div#user-bookmarks.bookmark.listbox.group {
   margin-top: 0;
 }

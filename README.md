@@ -7,3 +7,6 @@ so if some of the formats wonky w the latter it is what it is
 uhh idk how much css u kno but gl trying to adjust it my codes a mess
 
 make the main skin first and add the rest as parents
+
+
+!make sure to put mobi skin after custom in the parents!

@@ -1,5 +1,4 @@
-
-a.rss,
+div.recent.module.group div.header.module::before,
 #main.system.docs.index.region h3.heading,
 div.favorite.module.odd h3.heading,
 p.note,
@@ -16,3 +15,4 @@ span#site_search_tooltip.tip,
 p.status {
   display: none !important;
 }
+

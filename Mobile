@@ -1,3 +1,10 @@
+.skins.picture.blurb.group .datetime,
+.collection.picture.blurb .datetime {
+  position: absolute;
+  top: 1.3em;
+  right: 1em;
+}
+
 #header .primary::before {
   margin-top: -.5em;
 }

@@ -1,10 +1,9 @@
-
+p#tag-string-description.footnote,
+p#notes-field-description.footnote,
 div#collection-works.work.listbox.group span.status,
-
 #greeting .navigation a[href="/works/new"],
 li.share,
 .blurb h4.heading a[href*="/gifts"],
-ul.bookmark.index.group li,
 a[href="/collections/alltimen/profile"],
 h2.collections,
 div#main.collections-show ul.navigation.actions,

@@ -1,3 +1,4 @@
+
 div#main.collections-show.dashboard.region div.primary.header.module {
   margin-bottom: 3.5em;
 }
@@ -22,8 +23,6 @@ div.skins.home blockquote.userstuff {
 div.css.module {
   padding-top: 12em;
 }
-
-
 
 .skins.picture.blurb.group .datetime,
 .collection.picture.blurb .datetime {
@@ -592,3 +591,4 @@ div#main.works-index.filtered.region h2.heading {
 div#main.works-index.filtered.region h2.heading a {
   color: #cf82a1 !important;
 }
+

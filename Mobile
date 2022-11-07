@@ -264,7 +264,9 @@ h4.heading a[rel="author"] {
   margin-top: 0em !important;
 }
 
-h4.heading a[href*="/works/"] {
+h4.heading a[href*="/works/"],
+h4.heading a[href*="/series/"]
+{
   font-size: 1.1em !important;
 }
 
